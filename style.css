@@ -3,6 +3,9 @@ body{
     border:0px;
     padding:0px;
     font-family: sans-serif;
+    /* height:2000px; */
+    position: relative;
+    display:block;
 }
 
 /* ==========================  NAV  ============================== */
@@ -126,3 +129,304 @@ body{
     text-align: center;
 }
 
+
+/* =========================  main =============================== */
+
+#container{
+    height:1400px;
+    width: 1140px;
+    border-radius: 16px;
+    background-color:  rgba(13, 19, 33, 0.02);
+    
+
+    display: block;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 80px 97px 80px 97px;
+    margin: 100px auto ;
+}
+
+#container>.p1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+
+#container>.p2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity:0.7;
+
+}
+
+
+/* --------------------------box1--------------------------------- */
+#container>.box1{
+    height:250px;
+    width:950px;
+    background-color: white;
+    margin: 60px auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#container>.box1> .text1> .p1{
+
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 50px;
+   
+}
+
+#container>.box1> .text1> .p2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+#container>.box1> .text1> button{
+
+    height:50px;
+    width:150px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+
+#container>.box1>.text1{
+    /* Frame 9 */
+    width: 477px;
+    height: 360px;
+    
+    }
+
+    #container>.box1>>.layer1{
+    height:300px;
+    width: 300px;
+}
+
+/* ---------------------------box2----------------------------- */
+
+#container>.box2{
+    height:250px;
+    width:950px;
+    background-color: white;
+    margin: 60px auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#container>.box2> .text1> .p1{
+
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 50px;
+   
+}
+
+#container>.box2> .text1> .p2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+#container>.box2> .text1> button{
+
+    height:50px;
+    width:150px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+
+#container>.box2>.text1{
+    /* Frame 9 */
+    width: 477px;
+    height: 360px;
+    
+    }
+
+#container>.box2>.layer1{
+    height:300px;
+    width: 300px;
+}
+
+
+/* ------------------------------BOX3---------------------- */
+
+
+#container>.box3{
+    height:250px;
+    width:950px;
+    background-color: white;
+    margin: 60px auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#container>.box3> .text1> .p1{
+
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 50px;
+   
+}
+
+#container>.box3> .text1> .p2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+#container>.box3> .text1> button{
+
+    height:50px;
+    width:150px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+
+#container>.box3>.text1{
+    /* Frame 9 */
+    width: 477px;
+    height: 360px;
+    
+    }
+
+#container>.box3>.layer1{
+    height:300px;
+    width: 300px;
+}
+
+
+/* -------------------------#Container2-------------------------------------- */
+
+
+#container2{
+    height:580px;
+    width:1140px;
+    /* border: 2px solid black; */
+    margin: 100px auto;
+    margin-bottom: 250px;
+
+}
+
+#container2>.p1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+#container2>.p2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity:0.7;
+    margin-bottom: 50px;
+}
+
+#container2>.video{
+    height: 610px;
+    width: 1140px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 15px;
+    
+}
+
+#container2>.video>iframe{
+    height: 550px;
+    width:1070px;
+
+    margin: 30px 30px 30px 30px;
+    border-radius: 15px;
+    
+}
